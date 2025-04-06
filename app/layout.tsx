@@ -46,7 +46,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <div className="w-full! flex justify-center">
-          <div className="container w-full h-30 p-4 flex flex-row justify-between items-center font-[family-name:var(--font-geist-sans)]">
+          <div className="container w-full h-30 p-4 flex flex-row justify-between items-center font-[family-name:var(--font-geist-sans)] text-lg">
             <div>Investpro</div>
             <div className="flex flex-row gap-6 items-center">
               {links.map((link, index) => (
@@ -55,7 +55,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
                 </Link>
               ))}
 
-              <Button>Login in</Button>
+              <Button>Log in</Button>
             </div>
           </div>
         </div>
